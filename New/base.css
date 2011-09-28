@@ -1,12 +1,15 @@
 @CHARSET "UTF-8";
 
-/*!!!!!!!RICORDATI DI RAGGRUPPARE LE COSE IN COMUNE!!!!!!!*/
-
-html, body { 
+html, body, #container, #centralpart { 
 	margin: 0; 
 	padding: 0; 
 	background-color:black;
 	text-align: left;
+	width:100%;
+}
+
+div {
+	clear:both;	
 }
 
 #header, #footer, .content, .sidebar, .breadcrumbs {
